@@ -22,3 +22,50 @@
     color: #214e9b;
     margin: auto;
 }
+
+.slider2 {
+    width: 10%;
+}
+
+.slider-header {
+    display: flex;
+    flex-direction: column; 
+}
+
+.slider-header>img {
+    width: 130px;
+    height: 130px;
+}
+
+.slider-header a,p {
+    margin-left: 10px;
+}
+
+.slider-header>a {
+    color: #cc3399;
+    font-weight: 700;
+}
+
+.slider-header>p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e5e5e;
+    font-weight: 700;
+}
+
+.slider-footer {
+    margin-top: 63px;
+}
+
+.slider-footer>a {
+    color: #214e9b;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.slider-footer>div {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+}
