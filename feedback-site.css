@@ -1,0 +1,34 @@
+.feedback-site>.feedback-site-box {
+    display: flex;
+}
+
+.feedback-site {
+    margin-bottom: 60px;
+}
+
+.feedback-site-box>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-left: 1px solid#c5c5c5;
+    border-right: 1px solid#c5c5c5;
+    margin-top: 46px;
+}
+
+.feedback-site-box>div>span {
+    margin-left: auto;
+    color: #214e9b;
+    font-size: 14px;
+}
+
+.feedback-site-box>div>p {
+    margin: 0;
+    font-style: italic;
+    color: #767676;
+}
+
+.feedback-site>h3 {
+    margin: 40px 0;
+    margin-bottom: 0;
+}

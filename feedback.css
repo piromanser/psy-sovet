@@ -1,0 +1,20 @@
+.feedback>.container>h3 {
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.feedback>.container>h3>span {
+    color: #708cbb;
+}
+
+.feedback>.container>a {
+    color: #214e9b;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.feedback>.container {
+    display: flex;
+}

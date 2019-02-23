@@ -1,0 +1,86 @@
+.psy-online, .psy-box, .psy-avatar, .psy-box-item, .psy-right-box {
+    display: flex;
+}
+
+.psy-online {
+    margin-bottom: 39px;
+}
+
+.psy-box>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.psy-box {
+    margin-right: 90px;
+}
+
+.psy-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.psy-left>h3 {
+    font-size: 28px;
+}
+
+.psy-left>p {
+    margin-top: 30px;
+    color: #5e5e5e;
+
+}
+
+
+.psy-left>.psy-big-box {
+    display: flex;
+    margin-top: 39px;
+}
+
+.psy-right {
+    flex: 1;
+}
+
+.psy-right>h3 {
+    font-size: 28px;
+    margin-bottom: 39px;
+}
+
+.psy-box-item {
+    margin-bottom: 30px;
+}
+
+.psy-box-item>div>p {
+    margin: 0;
+    margin-left: 24px;
+}
+
+.psy-box-item>div>p:first-child {
+    text-decoration: underline;
+    line-height: 20px;
+    color: #cc3399;
+}
+
+.psy-box-item>div>p:last-child {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e5e5e;
+}
+
+.psy-right-box {
+    align-items: center;
+}
+
+.psy-right-box>p {
+    margin: 0;
+}
+
+.psy-right-box>img {
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+}
+
+.psy-right-bigbox>p {
+    margin-left: 10px;
+}

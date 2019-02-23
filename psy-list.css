@@ -1,0 +1,24 @@
+.psy-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.psy-list>h3 {
+    font-size: 28px;
+    margin-top: 39px;
+}
+
+.psy-list>h3>span {
+    color: #708cbb;
+}
+
+.psy-list>p {
+    color: #5e5e5e;
+    font-style: italic;
+    line-height: 26px;
+}
+
+.psy-list>a {
+    color: #214e9b;
+    margin: auto;
+}

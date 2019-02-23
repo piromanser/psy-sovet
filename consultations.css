@@ -1,0 +1,92 @@
+.consultations>h3 {
+    margin-top: 40px;
+}
+
+.links-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-box>a {
+    margin: 28px;
+}
+
+.links-box>a:first-child {
+    font-size: 18px;
+    color: #767676;
+}
+
+.links-box>a:last-child {
+    font-size: 24px;
+    color: #214e9b;
+    text-decoration: none;
+}
+
+.price-box, .price-sub {
+    display: flex;
+}
+
+.price-box {
+    margin-top: 22px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 22px;
+}
+
+.price-box>span {
+    margin-left: 25px;
+}
+
+.price-box>span:first-child {
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+.price-box>span:nth-child(2) {
+    color: #214e9b;
+    font-size: 16px;
+}
+
+.price-sub {
+    margin-left: 140px;
+    align-items: center;    
+}
+
+.price-sub>span:first-child {
+    color: #767676;
+    font-size: 14px;
+}
+
+.price-sub>span:last-child {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price-sub>span:nth-child(2) {
+    color: #aaaaaa;
+    font-size: 13px;
+
+}
+
+.price-sub>span {
+    margin-left: 25px;
+}
+
+.all-cons {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-cons>a {
+    margin: auto;
+    color: #214e9b;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+
+.all-cons>p {
+    text-align: center;
+    font-style: italic;
+    color: #5e5e5e;
+}

@@ -1,0 +1,23 @@
+.statistic {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.stat-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.stat-box>span {
+    color: #708cbb;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-right: 35px;
+}
+
+.statistic>div>p {
+    margin-top: 10px;
+    color: #767676;
+    font-size: 16px;
+}

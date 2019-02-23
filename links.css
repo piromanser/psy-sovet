@@ -1,0 +1,23 @@
+.links {
+    display: flex;
+    background-color: #708cbb;
+}
+
+.links>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.links>a:hover {
+    background-color: #ffffff;
+    color: #214e9b;
+}
+
+.links>a:first-child {
+    margin-left: 135px;
+}
+
