@@ -1,0 +1,89 @@
+.banner {
+    display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-image: linear-gradient(to top, #e9edf3 0%, #d4d8df 100%);
+    padding-top: 40px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+    height: 100px;
+    padding: 16px 19px;
+    border: none;
+    border-radius: 3px;
+}
+textarea::-webkit-input-placeholder {
+    color: #8f8f8f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: #8f8f8f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #8f8f8f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+textarea:-ms-input-placeholder {
+    color: #8f8f8f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+textarea::placeholder {
+    color: #8f8f8f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.text-box {
+    padding-left: 30px;
+}
+
+.text-box>h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.text-box>p {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    margin: 15px 0 24px 0;
+}
+
+.text-box>p>span {
+    font-weight: 700;
+}
+
+.text-box>span {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 1164px) {
+    .banner>img {
+        display: none;
+    }
+}

@@ -7,23 +7,23 @@
     <title>PsySovet</title>
 
     <!-- vendor styles -->
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="lib/glide-3.2.6/glide.core.min.css">
     <!-- own styles -->
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="links.css">
-    <link rel="stylesheet" href="statistic.css">
-    <link rel="stylesheet" href="feedback.css">
-    <link rel="stylesheet" href="psy-online.css">
-    <link rel="stylesheet" href="questions.css">
-    <link rel="stylesheet" href="consultations.css">
-    <link rel="stylesheet" href="press.css">
-    <link rel="stylesheet" href="psy-list.css">
-    <link rel="stylesheet" href="feedback-site.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="advantages.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/statistic.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/psy-online.css">
+    <link rel="stylesheet" href="css/questions.css">
+    <link rel="stylesheet" href="css/consultations.css">
+    <link rel="stylesheet" href="css/press.css">
+    <link rel="stylesheet" href="css/psy-list.css">
+    <link rel="stylesheet" href="css/feedback-site.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -33,25 +33,28 @@
         </section>
     </header>
 
-    <section class=" banner">
+    <section class="banner">
         <img src="./img/фото.png" alt="">
         <div class="text-box">
             <h3>Консультации психолога онлайн</h3>
             <p>На Псисовет Вы получите <span>полноценную консультацию психолога онлайн.</span> Бесплатная психологическая помощь возможна в публичной переписке, в порядке очереди. Доступны платные консультации в которых Вы получите более быстрый ответ в приватном разделе. </p>
             <span>Психологи консультируют анонимно, онлайн, 24 часа в сутки!</span>
-            <textarea name="" id="" rows="10" placeholder="Опишите пожалуйста, свой вопрос психологу более подробно. В том числе: имя, возраст, семейное положение..."></textarea>
-            <button>Получите консультацию прямо сейчас</button>
+            <div>
+                <textarea
+                    rows="10"
+                    placeholder="Опишите пожалуйста, свой вопрос психологу более подробно. В том числе: имя, возраст, семейное положение..."
+                ></textarea>
+            </div>
+            <button class="button button-green">Получите консультацию прямо сейчас</button>
         </div>
     </section>
 
-
     <div class="links-bg-box">
-    <section class="container links">
-        <a href="">форум</a>
-        <a href="">психологи</a>
-    </section>
+        <section class="container links">
+            <a href="#forum" class="active">форум</a>
+            <a href="#psycho">психологи</a>
+        </section>
     </div>
-
 
 
     <section class="container statistic">
@@ -90,7 +93,7 @@
             <h3>Благодарность, и отзывы о наших психологах от <span>752 830</span> человек</h3>
         </div>
 
-        <div class="glide">
+        <div class="glide-one">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide">
@@ -123,7 +126,6 @@
                             </div>
                         </div>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -524,22 +526,30 @@
         <h3>На нашем сайте более <span>100</span> психологов</h3>
         <p>Ваши вопросы Вы можете задать в разделах или написать психологу через личные сообщения. Для получения консультаций психолога онлайн требудется регистрация.</p>
         
-        <div class="slider2">
-           <div class="slider-header">
-               <img src="img/волосы2.png" alt="">
-               <a href="">Александр Стемковский</a>
-               <p>Практический психолог</p>
-           </div>
-           <div class="slider-footer">
-                <div>
-                    <img src="img/звезда_копия_4.png" alt="">
-                    <img src="img/звезда_копия_4.png" alt="">
-                    <img src="img/звезда_копия_4.png" alt="">
-                    <img src="img/звезда_копия_4.png" alt="">
-                    <img src="img/звезда_копия_4.png" alt="">
-                </div>
-                <a href="">19 отзывов</a>
-           </div> 
+        <div class="glide-two">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="another-slide">
+                            <div class="another-slide-header">
+                                <img src="img/волосы2.png" alt="">
+                                <a href="">Александр Стемковский</a>
+                                <p>Практический психолог</p>
+                            </div>
+                            <div class="another-slide-footer">
+                                <div>
+                                    <img src="img/звезда_копия_4.png" alt="">
+                                    <img src="img/звезда_копия_4.png" alt="">
+                                    <img src="img/звезда_копия_4.png" alt="">
+                                    <img src="img/звезда_копия_4.png" alt="">
+                                    <img src="img/звезда_копия_4.png" alt="">
+                                </div>
+                                <a href="">19 отзывов</a>
+                            </div>             
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <a href="">Все психологи</a> 
@@ -591,7 +601,7 @@
         </ul>
         <div class="advantages-box">
             <p>Итак, Вам нужна консультация психолога? Не откладывайте решение вопроса -  начните решать проблему прямо сейчас</p>
-            <button>Получите консультацию</button>
+            <button class="button button-green">Получите консультацию</button>
         </div>
     </section>
 
@@ -618,7 +628,7 @@
         </footer>
     </div>
 
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="lib/glide-3.2.6/glide.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
