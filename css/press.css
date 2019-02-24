@@ -17,12 +17,15 @@
 
 .press-column {
     border: 1px solid #e1e1e1;
-    border-top: none;
     padding: 20px;
 }
 
 .press-column:nth-child(3) {
     border-right: 1px solid #e1e1e1;
+}
+
+.press-column:not(:first-child) {
+    margin-left: 14px;
 }
 
 .press-column>h6 {
@@ -53,4 +56,16 @@
 .press-column-item>div>span {
     font-size: 13px;
     color: #aaaaaa;
+}
+
+@media (max-width: 900px) {
+    .press {
+        flex-direction: column;
+    }
+    
+    .press-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

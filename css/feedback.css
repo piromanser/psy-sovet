@@ -1,6 +1,7 @@
 .feedback > .container > h3 {
     font-size: 28px;
     line-height: 20px;
+    margin-top: 39px;
 }
 
 .feedback > .container > h3 > span {
@@ -79,4 +80,8 @@
     margin: 0;
     color: #8f8f8f;
     line-height: 30px;
+}
+
+.glide-one {
+    margin-bottom: 52px;
 }

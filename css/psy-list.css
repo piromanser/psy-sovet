@@ -20,7 +20,7 @@
 
 .psy-list > a {
     color: #214e9b;
-    margin: auto;
+    margin: 39px auto;
 }
 
 .another-slide {
@@ -31,6 +31,8 @@
 .another-slide-header {
     display: flex;
     flex-direction: column; 
+    width: 130px;
+    margin: auto;
 }
 
 .another-slide-header > img {
@@ -45,13 +47,15 @@
 
 .another-slide-header > p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     color: #5e5e5e;
     font-weight: 700;
 }
 
 .another-slide-footer {
     margin-top: 63px;
+    width: 130px;
+    margin: auto;
 }
 
 .another-slide-footer > a {

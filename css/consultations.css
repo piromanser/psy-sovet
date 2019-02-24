@@ -55,6 +55,8 @@
 .price-sub>span:first-child {
     color: #767676;
     font-size: 14px;
+    background-color: #fff4e9;
+    padding: 9px 16px;
 }
 
 .price-sub>span:last-child {
@@ -95,4 +97,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 900px) {
+    .price-sub {
+        margin-left: 10px;
+    }
 }
