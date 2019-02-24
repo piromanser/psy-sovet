@@ -1,13 +1,13 @@
-.feedback>.container>h3 {
+.feedback > .container > h3 {
     font-size: 28px;
     line-height: 20px;
 }
 
-.feedback>.container>h3>span {
+.feedback > .container > h3 > span {
     color: #708cbb;
 }
 
-.feedback>.container>a {
+.feedback > .container > a {
     color: #214e9b;
     font-size: 18px;
     line-height: 20px;
@@ -15,31 +15,32 @@
     margin: auto;
 }
 
-.feedback>.container {
+.feedback > .container {
     display: flex;
 }
 
-.slider {
-    width: 30%;
+.slide {
     padding: 10px;
+    border-left: 1px solid #e1e1e1;
+    padding: 0 10px;
 }
 
-.slider>a {
+.slide > a {
     color: #214e9b;
     font-size: 18px;
     line-height: 30px;
 }
 
-.slider>p {
+.slide > p {
     margin: 5px 0;
 }
 
-.slider>p:first-of-type {
+.slide > p:first-of-type {
     color: #8f8f8f;
     line-height: 30px;
 }
 
-.slider>p:last-of-type {
+.slide > p:last-of-type {
     color: #5e5e5e;
     font-style: italic;
 }
@@ -47,9 +48,10 @@
 .question {
     display: flex;
     margin: 10px 0;
+    align-items: baseline;
 }
 
-.question>p {
+.question > p {
     margin: 0 20px 0 0;
     color: #8f8f8f;
     line-height: 30px;
@@ -63,17 +65,17 @@
     flex-direction: column;
 }
 
-.question-item>img {
+.question-item > img {
     margin-right: 20px;
     height: 45px;
     width: 45px;
 }
 
-.question>a {
+.question > a {
     color: #214e9b;
 }
 
-.raiting>p { 
+.raiting > p { 
     margin: 0;
     color: #8f8f8f;
     line-height: 30px;

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PsySovet</title>
+
+    <!-- vendor styles -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- own styles -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="banner.css">
@@ -29,7 +33,7 @@
         </section>
     </header>
 
-    <section class="banner">
+    <section class=" banner">
         <img src="./img/фото.png" alt="">
         <div class="text-box">
             <h3>Консультации психолога онлайн</h3>
@@ -40,10 +44,15 @@
         </div>
     </section>
 
+
+    <div class="links-bg-box">
     <section class="container links">
         <a href="">форум</a>
         <a href="">психологи</a>
     </section>
+    </div>
+
+
 
     <section class="container statistic">
         <div>
@@ -81,32 +90,41 @@
             <h3>Благодарность, и отзывы о наших психологах от <span>752 830</span> человек</h3>
         </div>
 
-        <div class="slider">
-            <a href="">Регина</a>
-            <p>32 мин. назад</p>
-            <p>Ольга Дорошенко отличный специалист! Она помогла мне решить мою проблему! Всегда отвечала практически сразу после задавания ей вопросов!...</p>
-            <div class="question">
-                <p>Вопрос:</p>
-                <a href="">Зависимость от отношений, которые приносят боль</a>
-            </div>
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div class="question-item">
-                    <img src="img/волосы2_копия.png" alt="">
-                    <div class="question-item">
-                        <a href="">Ольга Дорошенко</a>
-                        <span>Психолог</span>
-                    </div>
-                </div>
-                <div class="raiting">
-                    <p>Стаж 10 лет</p>
-                    <div>
-                        <img src="img/звезда_копия_4.png" alt="">
-                        <img src="img/звезда_копия_4.png" alt="">
-                        <img src="img/звезда_копия_4.png" alt="">
-                        <img src="img/звезда_копия_4.png" alt="">
-                        <img src="img/звезда_копия_4.png" alt="">
-                    </div>
-                </div>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="slide">
+                            <a href="">Регина</a>
+                            <p>32 мин. назад</p>
+                            <p>Ольга Дорошенко отличный специалист! Она помогла мне решить мою проблему! Всегда отвечала практически сразу после задавания ей вопросов!...</p>
+                            <div class="question">
+                                <p>Вопрос:</p>
+                                <a href="">Зависимость от отношений, которые приносят боль</a>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div class="question-item">
+                                    <img src="img/волосы2_копия.png" alt="">
+                                    <div class="question-item">
+                                        <a href="">Ольга Дорошенко</a>
+                                        <span>Психолог</span>
+                                    </div>
+                                </div>
+                                <div class="raiting">
+                                    <p>Стаж 10 лет</p>
+                                    <div>
+                                        <img src="img/звезда_копия_4.png" alt="">
+                                        <img src="img/звезда_копия_4.png" alt="">
+                                        <img src="img/звезда_копия_4.png" alt="">
+                                        <img src="img/звезда_копия_4.png" alt="">
+                                        <img src="img/звезда_копия_4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
         </div>
 
@@ -333,7 +351,7 @@
 
     <section class="container consultations">
         <h3>Последние консультации психологов</h3>
-        <div>
+        <div class="consultations-box">
             <div class="links-box">
                 <a href="">Бесплатные</a>
                 <a href="">Платные</a>
@@ -578,26 +596,29 @@
     </section>
 
     <div class="bg-box">
-    <footer class="container">
-        <div class="footer-box">
-            <div class="footer-box-links">
-                <a href="">НАШИ ПСИХОЛОГИ</a>
-                <a href="">О ПРОЕКТЕ</a>
-                <a href="">ПРАВОВЫЕ ДОКУМЕНТЫ</a>
-                <a href="">ПСИХОЛОГАМ</a>
-                <a href="">ОБРАТНАЯ СВЯЗЬ</a>
-                <a href=""><img src="/img/photo_1064.png" alt=""></a>
+        <footer class="container">
+            <div class="footer-box">
+                <div class="footer-box-links">
+                    <a href="">НАШИ ПСИХОЛОГИ</a>
+                    <a href="">О ПРОЕКТЕ</a>
+                    <a href="">ПРАВОВЫЕ ДОКУМЕНТЫ</a>
+                    <a href="">ПСИХОЛОГАМ</a>
+                    <a href="">ОБРАТНАЯ СВЯЗЬ</a>
+                    <a href=""><img src="/img/photo_1064.png" alt=""></a>
+                </div>
+                <div class="footer-box-icons">
+                    <a href=""><img src="/img/fb.png" alt=""></a>
+                    <a href=""><img src="/img/fb.png" alt=""></a>
+                    <a href=""><img src="/img/fb.png" alt=""></a>
+                    <a href=""><img src="/img/fb.png" alt=""></a>
+                </div>
             </div>
-            <div class="footer-box-icons">
-                <a href=""><img src="/img/fb.png" alt=""></a>
-                <a href=""><img src="/img/fb.png" alt=""></a>
-                <a href=""><img src="/img/fb.png" alt=""></a>
-                <a href=""><img src="/img/fb.png" alt=""></a>
-            </div>
-        </div>
-        <p>Форум по спихологи: консультации психологов онлайн (психология личности, отношения в парах, самейные отношения, детская психология. При полном или частичном использовании материалов форума по психологии обязательна активная прямая ссылка.</p>
-        <p>2015 -2018 © PsySovet.ru. Консультации психологов онлайн</p>
-    </footer>
+            <p>Форум по спихологи: консультации психологов онлайн (психология личности, отношения в парах, самейные отношения, детская психология. При полном или частичном использовании материалов форума по психологии обязательна активная прямая ссылка.</p>
+            <p>2015 -2018 © PsySovet.ru. Консультации психологов онлайн</p>
+        </footer>
     </div>
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
