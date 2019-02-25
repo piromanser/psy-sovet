@@ -29,3 +29,9 @@ h3 {
 .button-green {
     background-color: #73ad58;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}

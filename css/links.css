@@ -27,3 +27,9 @@
 .links-bg-box {
     background-color: #708cbb;
 }
+
+@media (max-width: 400px) {
+    .links > a:first-child {
+        margin-left: 0px;
+    }
+}

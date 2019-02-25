@@ -32,3 +32,12 @@
     margin-left: 30px;
     border-radius: 3px;
 }
+
+@media (max-width: 400px) {
+    .advantages-box {
+        flex-direction: column;
+    }
+    .advantages-box>.button-green {
+        margin-left: 0;
+    }
+}
